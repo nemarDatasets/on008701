@@ -1,5 +1,5 @@
 {
-    "Name": "MET EEG Dataset",
+    "Name": "MET Dataset",
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
