@@ -1,5 +1,5 @@
 {
-    "Name": "MET Dataset",
+    "Name": "MET - Music-Induced Emotion EEG Dataset",
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
