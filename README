@@ -64,7 +64,7 @@ bids_path = BIDSPath(
 # 2. Load BIDS file
 raw_read = read_raw_bids(bids_path=bids_path, extra_params={'preload': True})
 
-# 3. 檢查讀入的數據資訊
+# 3. Check Info
 print(raw_read.info)
 
 ```
