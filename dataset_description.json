@@ -1,5 +1,5 @@
 {
-    "Name": "Music_EEG",
+    "Name": "MET EEG Dataset",
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
