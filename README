@@ -46,6 +46,32 @@ Each EEG session contains the following files:
 
 ---
 
+## Sample Code (PTTHON):
+
+```py
+
+from mne_bids import BIDSPath, read_raw_bids
+
+# 1. Set file path and file name
+bids_path = BIDSPath(
+    subject='01',          # subject index (eg. 01)
+    session='t01',          # trial index (eg. t01)
+    task='music',
+    datatype='eeg',
+    root='/Users/kathy/Documents/EEG data/EGI_preprocessed_bids' # directory root path
+)
+
+# 2. Load BIDS file
+raw_read = read_raw_bids(bids_path=bids_path, extra_params={'preload': True})
+
+# 3. 檢查讀入的數據資訊
+print(raw_read.info)
+
+```
+
+---
+
+
 
 References
 ----------
