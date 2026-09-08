@@ -2,17 +2,31 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MET - Music-Induced Emotion EEG Dataset",
+  "description": "The MET dataset comprises 128-channel EEG recordings (downsampled to 66 channels) from 20 participants during resting-state and music-listening conditions. Each participant underwent one resting-state session and twenty music-listening sessions, each corresponding to a distinct song lasting 130 seconds. The dataset is intended to support research on music-induced emotional responses and their neural correlates, and is organized according to the BIDS specification.",
+  "methods_description": "EEG signals were originally recorded using a 128-channel EEG system at a sampling rate of 1000 Hz. After preprocessing and channel selection, 66 EEG channels are provided. Each music session included 5 seconds before onset, 120 seconds of music playback, and 5 seconds after offset.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Weng Lam, Cheang": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds008701.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "music-induced emotion"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "affective neuroscience"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on008701",
       "identifier_type": "URL",
@@ -32,46 +46,27 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds008701.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "36 B (1 files)"
+    "13.05 GB (400 files)"
   ],
   "formats": [
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "The MET dataset comprises 128-channel EEG recordings (downsampled to 66 channels post-preprocessing) collected from 20 participants during resting-state and music-listening conditions. Each participant underwent one resting-state session and twenty music-listening sessions, each corresponding to a distinct song lasting 130 seconds. The dataset is intended to support research on music-induced emotion and neural correlates of affective responses to music.",
-  "methods_description": "EEG signals were originally recorded using a 128-channel EEG system at a sampling rate of 1000 Hz. Each music-listening session lasted 130 seconds, comprising 5 seconds before music onset, 120 seconds of music playback, and 5 seconds after offset. After preprocessing and channel selection, 66 EEG channels were retained and organized according to the BIDS specification.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "music"
-    },
-    {
-      "term": "Emotion-Focused Therapy",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000071441"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "affective neuroscience"
-    }
-  ],
-  "source_hash": "a258edd5b5a423206ebde19f2b5ff4a38d1436b9e4a5980af3b739a2f209744f"
+  "source_hash": "00fa3b6a1214fa1147d58ac7880dd6bf9da534a6fd85f2a15a0a6da3cc7da72f"
 }
