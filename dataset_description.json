@@ -1,10 +1,16 @@
 {
-    "Name": "MET - Music-Induced Emotion EEG Dataset",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "Weng Lam, Cheang"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds008701.v1.0.2",
-    "License": "CC0"
+  "Name": "MET - Music-Induced Emotion EEG Dataset",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Weng Lam, Cheang"
+  ],
+  "DatasetDOI": "10.82901/nemar.on008701",
+  "License": "CC0",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds008701.v1.0.2"
+    }
+  ],
+  "Version": "1.0.0"
 }
